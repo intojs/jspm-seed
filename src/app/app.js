@@ -1,1 +1,9 @@
-console.log('Hello world!');
+/**
+ *	app.js
+ */
+
+import Person from './person/person';
+
+let person = new Person();
+
+person.sayHello();

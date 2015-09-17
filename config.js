@@ -16,10 +16,10 @@ System.config({
     "angular": "github:angular/bower-angular@1.4.4",
     "angular-mocks": "github:angular/bower-angular-mocks@1.4.5",
     "angular-route": "github:angular/bower-angular-route@1.4.4",
-    "babel": "npm:babel-core@5.8.22",
-    "babel-runtime": "npm:babel-runtime@5.8.20",
+    "babel": "npm:babel-core@5.8.24",
+    "babel-runtime": "npm:babel-runtime@5.8.24",
     "bootstrap": "github:twbs/bootstrap@3.3.5",
-    "core-js": "npm:core-js@1.1.0",
+    "core-js": "npm:core-js@1.1.4",
     "jquery": "github:components/jquery@2.1.4",
     "modernizr": "github:Modernizr/Modernizr@2.8.3",
     "ng-sortable": "github:a5hik/ng-sortable@1.3.0",
@@ -40,10 +40,10 @@ System.config({
     "github:twbs/bootstrap@3.3.5": {
       "jquery": "github:components/jquery@2.1.4"
     },
-    "npm:babel-runtime@5.8.20": {
+    "npm:babel-runtime@5.8.24": {
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:core-js@1.1.0": {
+    "npm:core-js@1.1.4": {
       "fs": "github:jspm/nodelibs-fs@0.1.2",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"

@@ -94,12 +94,12 @@
 		], function(ev) {
         	gulp.src(ev.path, { read: false })
         		.pipe(plumber({
-                errorHandler: function(err) {
-                    console.log(err);
-                    this.emit('end');
-                }
-            }))
-        	.pipe(browserSync.stream());
+	                errorHandler: function(err) {
+	                    console.log(err);
+	                    this.emit('end');
+	                }
+	            }))
+        		.pipe(browserSync.stream());
     	});
 	});
 

@@ -1,6 +1,6 @@
 Jspm Seed
 
-Gulp, Jspm.io, SystemJS, Babel and many more.
+Gulp, Karma, Jasmine, Jspm.io, SystemJS, Babel and many more.
 
 Instructions:
 
