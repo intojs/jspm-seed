@@ -21,6 +21,7 @@ System.config({
     "bootstrap": "github:twbs/bootstrap@3.3.5",
     "core-js": "npm:core-js@1.1.0",
     "jquery": "github:components/jquery@2.1.4",
+    "modernizr": "github:Modernizr/Modernizr@2.8.3",
     "ng-sortable": "github:a5hik/ng-sortable@1.3.0",
     "text": "github:systemjs/plugin-text@0.0.2",
     "github:a5hik/ng-sortable@1.3.0": {

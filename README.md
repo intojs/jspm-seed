@@ -1,18 +1,20 @@
-# support-platform
-Angular Support Platform
+Jspm Seed
 
-1. Download the repo
+Gulp, Jspm.io, SystemJS, Babel and many more.
 
-2. Install the npm dependencies:
+Instructions:
+
+1. Clone the repo.
+
+2. Install dependencies
 npm install
-
-3. Install the jspm dependencies:
 jspm install
 
-4. Start developing:
+3. Start coding
 npm run dev
 
-5. Test the app:
+4. Test
 npm run test
 
-6. Put the application into production: npm run build
+5. Build
+npm run build
