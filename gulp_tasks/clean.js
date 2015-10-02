@@ -8,7 +8,7 @@
 	        del = require('del');
 
 		gulp.task('clean', function(callback) {
-	        del(opts.src, callback);
+	        return del(opts.src, callback);
 	    });
 	};
 }());

@@ -1,7 +1,7 @@
 (function() {
 	
 	'use strict';
-
+	
 	var gulp = require('gulp'),
 		browserSync = require('browser-sync'),
 		plumber = require('gulp-plumber'),
@@ -19,6 +19,11 @@
    /**
     *	--- Tasks ---
     */
+
+    require(tasksPath + '/modernizr-build.js')({
+    	src: './jspm_packages/github/Modernizr/Modernizr@3.0.0/**/*.js',
+    	dest: './jspm_packages/github/Modernizr/Modernizr@3.0.0/dist'
+    });
 
     require(tasksPath + '/browser-sync.js')({
     	baseDir: basePath,
@@ -109,8 +114,7 @@
 
 	gulp.task('dev', function(callback) {
 		runSeq(
-			'js-hint',
-			'less',
+			['modernizr-build', 'js-hint', 'less'],
 			['browser-sync'],
 			'watch',
 			callback
@@ -135,7 +139,7 @@
 	gulp.task('build', function(callback) {
 		runSeq(
 			['clean'],
-			['jspm-build', 'copy-assets', 'copy-fonts', 'less'],
+			['modernizr-build', 'jspm-build', 'copy-assets', 'copy-fonts', 'less'],
 			['useref'],
 			['html-min', 'create-empty-jspm-file'],
 			callback

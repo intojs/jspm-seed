@@ -5,5 +5,3 @@
 import Person from './person/person';
 
 let person = new Person();
-
-person.sayHello();

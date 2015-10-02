@@ -4,17 +4,12 @@ Gulp, Karma, Jasmine, Jspm.io, SystemJS, Babel and many more.
 
 Instructions:
 
-1. Clone the repo.
+    Clone the repo.
 
-2. Install dependencies
-npm install
-jspm install
+    Install dependencies npm install jspm install
 
-3. Start coding
-npm run dev
+    Start coding npm run dev
 
-4. Test
-npm run test
+    Test npm run test
 
-5. Build
-npm run build
+    Build npm run build
